@@ -9,11 +9,8 @@ The directory uses Monorepo management, and the project structure is as follows:
 ├── apps # Project applications directory
 │   ├── backend-mock # Backend mock service application
 │   ├── web-antd # Frontend application based on Ant Design Vue
-│   ├── web-ele # Frontend application based on Element Plus
-│   └── web-naive # Frontend application based on Naive UI
 ├── build-local-docker-image.sh # Script for building Docker images locally
 ├── cspell.json # CSpell configuration file
-├── docs # Project documentation directory
 ├── eslint.config.mjs # ESLint configuration file
 ├── internal # Internal tools directory
 │   ├── lint-configs # Code linting configurations
@@ -55,7 +52,6 @@ The directory uses Monorepo management, and the project structure is as follows:
 │   ├── styles # Styles
 │   ├── types # Type definitions
 │   └── utils # Utilities
-├── playground # Demo directory
 ├── pnpm-lock.yaml # pnpm lock file
 ├── pnpm-workspace.yaml # pnpm workspace configuration file
 ├── scripts # Scripts directory

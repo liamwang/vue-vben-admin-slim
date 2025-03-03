@@ -54,14 +54,6 @@ The execution command is: `pnpm run [script]` or `npm run [script]`.
     "build:docker": "./build-local-docker-image.sh",
     // Build the web-antd application separately
     "build:antd": "pnpm run build --filter=@vben/web-antd",
-    // Build the documentation separately
-    "build:docs": "pnpm run build --filter=@vben/docs",
-    // Build the web-ele application separately
-    "build:ele": "pnpm run build --filter=@vben/web-ele",
-    // Build the web-naive application separately
-    "build:naive": "pnpm run build --filter=@vben/naive",
-    // Build the playground application separately
-    "build:play": "pnpm run build --filter=@vben/playground",
     // Changeset version management
     "changeset": "pnpm exec changeset",
     // Check for various issues in the project
@@ -82,14 +74,6 @@ The execution command is: `pnpm run [script]` or `npm run [script]`.
     "dev": "turbo-run dev",
     // Start the web-antd application
     "dev:antd": "pnpm -F @vben/web-antd run dev",
-    // Start the documentation
-    "dev:docs": "pnpm -F @vben/docs run dev",
-    // Start the web-ele application
-    "dev:ele": "pnpm -F @vben/web-ele run dev",
-    // Start the web-naive application
-    "dev:naive": "pnpm -F @vben/web-naive run dev",
-    // Start the playground application
-    "dev:play": "pnpm -F @vben/playground run dev",
     // Format code
     "format": "vsh lint --format",
     // Lint code
@@ -130,24 +114,6 @@ To run the `web-antd` application:
 
 ```bash
 pnpm dev:antd
-```
-
-To run the `web-naive` application:
-
-```bash
-pnpm dev:naive
-```
-
-To run the `web-ele` application:
-
-```bash
-pnpm dev:ele
-```
-
-To run the `docs` application:
-
-```bash
-pnpm dev:docs
 ```
 
 ## Public Static Resources

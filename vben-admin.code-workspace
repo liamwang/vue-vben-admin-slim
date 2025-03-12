@@ -9,6 +9,10 @@
       "path": "apps/web-antd",
     },
     {
+      "name": "client",
+      "path": "client",
+    },
+    {
       "name": "@vben/commitlint-config",
       "path": "internal/lint-configs/commitlint-config",
     },

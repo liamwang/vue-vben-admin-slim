@@ -25,12 +25,9 @@
     "preview": "turbo-run preview",
     "publint": "vsh publint",
     "reinstall": "pnpm clean --del-lock && pnpm install",
-    "test:unit": "vitest run --dom",
-    "test:e2e": "turbo run test:e2e",
     "update:deps": "npx taze -r -w"
   },
   "devDependencies": {
-    "@playwright/test": "catalog:",
     "@types/node": "catalog:",
     "@vben/commitlint-config": "workspace:*",
     "@vben/eslint-config": "workspace:*",
@@ -43,7 +40,6 @@
     "@vben/vsh": "workspace:*",
     "@vitejs/plugin-vue": "catalog:",
     "@vitejs/plugin-vue-jsx": "catalog:",
-    "@vue/test-utils": "catalog:",
     "autoprefixer": "catalog:",
     "cross-env": "catalog:",
     "happy-dom": "catalog:",
@@ -55,7 +51,6 @@
     "typescript": "catalog:",
     "unbuild": "catalog:",
     "vite": "catalog:",
-    "vitest": "catalog:",
     "vue": "catalog:",
     "vue-tsc": "catalog:"
   },

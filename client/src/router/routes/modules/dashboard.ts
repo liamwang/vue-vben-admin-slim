@@ -13,22 +13,22 @@ const routes: RouteRecordRaw[] = [
     path: '/dashboard',
     children: [
       {
-        name: 'Analytics',
-        path: '/analytics',
-        component: () => import('#/views/dashboard/analytics/index.vue'),
+        name: 'dashboard',
+        path: '/dashboard',
+        component: () => import('#/views/_core/fallback/coming-soon.vue'),
         meta: {
           affixTab: true,
           icon: 'lucide:area-chart',
-          title: $t('page.dashboard.analytics'),
+          title: '控制台',
         },
       },
       {
-        name: 'Workspace',
-        path: '/workspace',
-        component: () => import('#/views/dashboard/workspace/index.vue'),
+        name: 'demo',
+        path: '/demo',
+        component: () => import('#/views/dashboard/demo.vue'),
         meta: {
           icon: 'carbon:workspace',
-          title: $t('page.dashboard.workspace'),
+          title: '演示页',
         },
       },
     ],

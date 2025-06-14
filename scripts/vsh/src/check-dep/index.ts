@@ -9,7 +9,6 @@ const DEFAULT_CONFIG = {
   // 需要忽略的依赖匹配
   ignoreMatches: [
     'vite',
-    'vitest',
     'unbuild',
     '@vben/tsconfig',
     '@vben/vite-config',

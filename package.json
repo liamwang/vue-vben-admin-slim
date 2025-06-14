@@ -26,7 +26,6 @@
     "catalog": "pnpx codemod pnpm/catalog"
   },
   "devDependencies": {
-    "@playwright/test": "catalog:",
     "@types/node": "catalog:",
     "@vben/eslint-config": "workspace:*",
     "@vben/prettier-config": "workspace:*",
@@ -38,12 +37,10 @@
     "@vben/vsh": "workspace:*",
     "@vitejs/plugin-vue": "catalog:",
     "@vitejs/plugin-vue-jsx": "catalog:",
-    "@vue/test-utils": "catalog:",
     "autoprefixer": "catalog:",
     "cross-env": "catalog:",
     "happy-dom": "catalog:",
     "is-ci": "catalog:",
-    "playwright": "catalog:",
     "rimraf": "catalog:",
     "tailwindcss": "catalog:",
     "turbo": "catalog:",

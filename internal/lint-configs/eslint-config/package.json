@@ -41,7 +41,6 @@
     "eslint-plugin-jsdoc": "catalog:",
     "eslint-plugin-jsonc": "catalog:",
     "eslint-plugin-n": "catalog:",
-    "eslint-plugin-no-only-tests": "catalog:",
     "eslint-plugin-perfectionist": "catalog:",
     "eslint-plugin-prettier": "catalog:",
     "eslint-plugin-regexp": "catalog:",

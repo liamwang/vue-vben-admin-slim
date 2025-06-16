@@ -17,6 +17,7 @@ const customConfig: Linter.Config[] = [
   {
     files: [
       'apps/**/**',
+      'app/**/**',
       'packages/effects/**/**',
       'packages/utils/**/**',
       'packages/types/**/**',

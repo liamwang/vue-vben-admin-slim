@@ -10,6 +10,7 @@ packages:
   - packages/business/*
   - apps/*
   - scripts/*
+  - app
 catalog:
   '@ast-grep/napi': ^0.37.0
   '@changesets/git': ^3.0.4

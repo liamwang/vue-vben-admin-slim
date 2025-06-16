@@ -1,6 +1,7 @@
 import { defineConfig } from '@vben/vite-config';
 
-export default defineConfig(async () => {
+// 使用 any 修复 TS2742 错误
+const config: any = defineConfig(async () => {
   return {
     application: {},
     vite: {
@@ -18,3 +19,5 @@ export default defineConfig(async () => {
     },
   };
 });
+
+export default config;

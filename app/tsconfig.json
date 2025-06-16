@@ -5,7 +5,9 @@
     "baseUrl": ".",
     "paths": {
       "#/*": ["./src/*"]
-    }
+    },
+    "noImplicitAny": false,
+    "skipLibCheck": true
   },
   "references": [{ "path": "./tsconfig.node.json" }],
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]

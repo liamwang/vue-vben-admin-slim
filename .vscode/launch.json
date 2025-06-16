@@ -4,12 +4,12 @@
   "configurations": [
     {
       "type": "chrome",
-      "name": "vben admin antd dev",
+      "name": "admin app",
       "request": "launch",
       "url": "http://localhost:5666",
       "env": { "NODE_ENV": "development" },
       "sourceMaps": true,
-      "webRoot": "${workspaceFolder}/apps/web-antd"
+      "webRoot": "${workspaceFolder}/app"
     }
   ]
 }
